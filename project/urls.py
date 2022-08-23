@@ -18,5 +18,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fb/',include('fb.urls')),
+    path('',include('fb.urls')),
 ]
