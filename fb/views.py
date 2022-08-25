@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def grid(request):
     return render (request,'grid.html')
+
+def adhun(request):
+    return render (request,'adhun.html')

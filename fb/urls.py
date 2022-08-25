@@ -3,4 +3,5 @@ from .import views
 
 urlpatterns=[
     path('',views.grid),
+    path('adhun',views.adhun),
 ]
